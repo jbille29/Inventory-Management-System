@@ -1,10 +1,10 @@
 
 #include <iostream>
+#include "UserInterface.h"
 
 int main() {
-
-	std::cout << "Hello" << std::endl;
-	//while(1){}
+	UserInterface UI;
+	UI.launch();
 
 	return 0;
 }
