@@ -115,11 +115,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bin.cpp" />
+    <ClCompile Include="Buyer.cpp" />
+    <ClCompile Include="DummyClass.cpp" />
+    <ClCompile Include="InventoryItem.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Supplier.cpp" />
     <ClCompile Include="UserInterface.cpp" />
+    <ClCompile Include="WareHouse.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bin.h" />
+    <ClInclude Include="Buyer.h" />
+    <ClInclude Include="DummyClass.h" />
+    <ClInclude Include="InventoryItem.h" />
+    <ClInclude Include="Supplier.h" />
     <ClInclude Include="UserInterface.h" />
+    <ClInclude Include="WareHouse.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
