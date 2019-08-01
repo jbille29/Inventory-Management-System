@@ -9,8 +9,10 @@ I figure out a better place to put it.
 #include "Buyer.h"
 #include "InventoryItem.h"
 #include "Supplier.h"
-#include "WareHouse.h"
 
+// This is like the Admin class or data management
+// because it holds all the instances that we need. That only admin will be able to edit, except parts or suppliers.
+// There may be too many unrelated methods where we want to create Manager classes like WarehouseManager, which would have static methods.
 class DummyClass
 {
 private:
@@ -18,7 +20,7 @@ private:
 	std::vector<Buyer> buyers;
 	std::vector<InventoryItem> items;
 	std::vector<Supplier> suppliers;
-	std::vector<WareHouse> warehouses;
+	
 	
 public:
 	DummyClass();

@@ -123,6 +123,7 @@
     <ClCompile Include="Supplier.cpp" />
     <ClCompile Include="UserInterface.cpp" />
     <ClCompile Include="WareHouse.cpp" />
+    <ClCompile Include="WarehouseManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bin.h" />
@@ -132,6 +133,7 @@
     <ClInclude Include="Supplier.h" />
     <ClInclude Include="UserInterface.h" />
     <ClInclude Include="WareHouse.h" />
+    <ClInclude Include="WarehouseManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
